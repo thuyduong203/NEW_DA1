@@ -18,7 +18,6 @@ import com.raven.form.Form_TaiKhoan;
 import com.raven.form.Form_ThongKe;
 import java.awt.Color;
 import javax.swing.JComponent;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -134,6 +133,7 @@ public class Main extends javax.swing.JFrame {
             panelBorder1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(menu, javax.swing.GroupLayout.DEFAULT_SIZE, 657, Short.MAX_VALUE)
             .addGroup(panelBorder1Layout.createSequentialGroup()
+                .addGap(4, 4, 4)
                 .addComponent(header2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
